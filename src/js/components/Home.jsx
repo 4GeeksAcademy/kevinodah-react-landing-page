@@ -26,16 +26,43 @@ const Home = () => {
 			<button className="btn btn-primary mb-4">Call to action!</button>
 		</div>
 
-		<div className=" row mt-3">
-			<div className="col-3 border rounded">
+		<div className="container mt-3">
+			<div className="row">
+				<div className="col-3 border rounded p-0 mx-2">
 				<img src={cardImg} className="img-fluid rounded" alt="Lombard Street, San Francisco"/>
 				<p className="display-6 text-center p-2">Class title</p>
 				<p className="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores vitae tenetur non deserunt</p>
 				<div className="border-top py-2">
 					<button className="btn btn-primary mx-auto d-block">Find Out More!</button>
 				</div>
-			</div>
+				</div>
+				<div className="col-3 border rounded p-0 mx-2">
+				<img src={cardImg} className="img-fluid rounded" alt="Lombard Street, San Francisco"/>
+				<p className="display-6 text-center p-2">Class title</p>
+				<p className="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores vitae tenetur non deserunt</p>
+				<div className="border-top py-2">
+					<button className="btn btn-primary mx-auto d-block">Find Out More!</button>
+				</div>
+				</div>
+				<div className="col-3 border rounded p-0 mx-2">
+				<img src={cardImg} className="img-fluid rounded" alt="Lombard Street, San Francisco"/>
+				<p className="display-6 text-center p-2">Class title</p>
+				<p className="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores vitae tenetur non deserunt</p>
+				<div className="border-top py-2">
+					<button className="btn btn-primary mx-auto d-block">Find Out More!</button>
+				</div>
+				</div>
+				<div className="col-3 border rounded p-0 mx-2">
+				<img src={cardImg} className="img-fluid rounded" alt="Lombard Street, San Francisco"/>
+				<p className="display-6 text-center p-2">Class title</p>
+				<p className="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores vitae tenetur non deserunt</p>
+				<div className="border-top py-2">
+					<button className="btn btn-primary mx-auto d-block">Find Out More!</button>
+				</div>
+				</div>
 			
+			</div>
+
 			
 		</div>
 		</>
