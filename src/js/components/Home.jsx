@@ -1,30 +1,47 @@
 import React from "react";
-import cardImg from "../../img/braden-collum-AFlG5jpMvYg-unsplash.jpg"; // ensure path/filename match exactly
+import cardImg from "../../img/braden-collum-AFlG5jpMvYg-unsplash.jpg";
 
 const Home = () => {
   return (
     <>
       {/* Top bar */}
       <div className="container-fluid bg-dark py-3">
-        <div className="row align-items-center">
-          <div className="col-6">
-            <h3 className="text-white m-0">Start Bootstrap</h3>
-          </div>
-          <div className="col-6 d-flex justify-content-end">
-            <ul className="nav">
-              <li className="nav-item">
-                <a className="nav-link text-white" href="#">Home</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-white" href="#">About</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-white" href="#">Services</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-white" href="#">Contact</a>
-              </li>
-            </ul>
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-auto">
+              <h3 className="text-white m-0">Start Bootstrap</h3>
+            </div>
+            <div className="col d-flex justify-content-end">
+              <nav className="navbar navbar-expand-md navbar-dark bg-dark p-0">
+                <button
+                  className="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                  <ul className="navbar-nav ms-auto">
+                    <li className="nav-item">
+                      <a className="nav-link" href="#">Home</a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="#">About</a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="#">Services</a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
@@ -64,10 +81,10 @@ const Home = () => {
         </div>
       </div>
 
-	  {/* Footer */}
-	  <div className="container-fluid bg-dark mt-3">
-		<p className="text-center text-white p-3">Copyright Your Website 2018</p>
-	  </div>
+      {/* Footer */}
+      <div className="container-fluid bg-dark mt-3">
+        <p className="text-center text-white p-3">Copyright Your Website 2018</p>
+      </div>
     </>
   );
 };
